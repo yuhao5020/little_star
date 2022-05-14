@@ -1,5 +1,6 @@
 body{
     background-color: #efefef;
+    min-width: 1200px;
 }
 
 .main::after{
