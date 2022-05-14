@@ -1,0 +1,112 @@
+/* 版心 */
+.w{
+	width: 1000px;
+	margin:0 auto; 
+}
+
+/* 快捷导航栏 */
+.shortcut{
+	height: 24px;
+	line-height: 24px;
+	background-color: #efefef;
+}
+
+.shortcut ul li{
+	float: right;
+	margin-right: 20px;
+}
+
+/* header制作 */
+.header{
+	position: relative;
+	height: 67px;
+	background-color: #2166b3;
+}
+
+.logo{
+	position: absolute;
+
+}
+
+.logo a{
+    display: block;
+    width: 160px;
+    height: 67px;
+    background: url(../images/logo.png) no-repeat;
+    font-size: 0;
+}
+
+.headeritems{
+	float: left;
+	width: 600px;
+	margin-left:180px;
+}
+
+.headeritems ul li{
+	display: inline-block;
+	width: 76px;
+	height: 67px;
+	line-height: 67px;
+	text-align: center;
+	font-size: 17px;
+	transition: all .4s;
+}
+.headeritems ul li a{
+	color: #ffffff;
+}
+.headeritems ul li:hover{
+	background-color: #104e8b;
+}
+
+.search{
+	float: left;
+	width: 200px;
+	height: 20px;
+	margin-top: 24px;
+}
+
+.search input{
+	float: left;
+	width: 160px;
+	height: 20px;
+	padding: 10px;
+}
+
+.search button{
+	float: left;
+	width: 40px;
+	height: 20px;
+}
+
+
+
+
+
+/* footer部分 */
+.footer{
+	height: 98px;
+	background-color: #115293;
+}
+
+.footer .logo{
+	float: left;
+	margin-left:50px;
+}
+
+.copyright{
+	float: left;
+	font-style: 12px;
+	color: #f0ffff;
+	margin-top: 15px;
+	margin-left: 230px;
+	line-height: 30px;
+}
+
+.links{
+	float: right;
+	margin-top: 15px;
+	margin-right: 50px;
+	font-style: 12px;
+	line-height: 20px;
+	color: #f0ffff;
+}

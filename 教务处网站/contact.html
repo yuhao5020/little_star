@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>长大教务处处——联系作者</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: #060c21;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .box {
+            position: relative;
+            width: 300px;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #060c21;
+        }
+
+        .box::before {
+            content: '';
+            position: absolute;
+            top: -3px;
+            left: -3px;
+            right: -3px;
+            bottom: -3px;
+            background: #fff;
+            z-index: -1;
+        }
+
+        .box::after {
+            content: '';
+            position: absolute;
+            top: -3px;
+            left: -3px;
+            right: -3px;
+            bottom: -3px;
+            background: #fff;
+            z-index: -2;
+            filter: blur(40px);
+        }
+
+        .box::before,
+        .box:after {
+            background: linear-gradient(235deg, #89ff00, #060c21, #00bcd4);
+            transition: all .8s;
+        }
+
+        .box:hover::before,
+        .box:hover::after {
+            background: linear-gradient(235deg, #00bcd4, #060c21, #89ff00);
+        }
+
+        .content {
+            padding: 20px;
+            box-sizing: border-box;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="content">
+            <h1>学生姓名：周杰</h1>
+            <p>Hello everybody. My name is Jay. I come from Wuhan province in China.I am very happy to come here
+                to study with you.It is so
+                beautiful and exciting here, and everyone is kind to me eecially Kim.This class feels just like one big
+                family to me.I’m interested in orts, music and mountain climbing. I would
+                love to play with you sometime.I hope I can become your friend soon. Thank you very much.
+                <a href="./index.html">click here return index</a>
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
