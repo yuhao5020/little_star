@@ -1,6 +1,7 @@
 /* 主体部分 */
 body{
 	background-color: #efefef;
+	min-width:2000px;
 }
 /* 滚动通知栏部分 */
 .notice_roll{
