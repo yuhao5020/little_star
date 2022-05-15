@@ -1,0 +1,231 @@
+/* 顶部样式 */
+.header{
+    position: relative;
+    width: 1920px;
+    height: 155px;
+    margin:0 auto;
+    margin-bottom: 10px;
+    background-image: url(../images/head.jpg);
+    background-size:1920px 155px;
+    background-repeat: no-repeat;
+}
+
+.hleft{
+    position: absolute;
+    top:0;
+    left:10px;
+    width: 512px;
+    height: 55px;
+    line-height: 55px;
+}
+
+.hleft li{
+    display: inline-block;
+    height: 41px;
+}
+
+.hleft li a{
+    height: 41px;
+    padding: 0 14px;
+    font-size: 15px;
+    font-weight: 900;
+    color:#e0e0e0;
+    text-decoration: none;
+    transition: all .4s;
+}
+
+.hleft ul li a:hover{
+    border-bottom: 2px solid #eaff00;
+    color:#eaff00;
+}
+
+
+.hcenter{
+    position: absolute;
+    top:10px;
+    left: 700px;
+    width: 510px;
+    height: 39px;
+    background-color:#efefef;
+    border-radius: 10px;
+}
+
+.hcenter input{
+    float: left;
+    width: 440px;
+    height: 30px;
+    background-color: #dadfdf;
+    border: 0;
+    border-radius: 10px;
+    color:#3d3e41;
+    margin:4px 10px 4px 4px;
+    padding-left: 14px;
+}
+
+.hcenter button{
+    width: 32px;
+    height: 32px;
+    border: 0;
+    background-image: url(../images/搜索.png);
+    background-size: 32px 32px;
+    margin-top:4px;
+}
+
+.hcenter button:hover{
+    background-image: url(../images/搜索2.png);
+    background-size: 32px 32px;
+}
+
+.hright{
+    position: absolute;
+    right: 0;
+    width: 520px;
+    height: 60px;
+    line-height: 50px;
+}
+
+
+.hright li{
+    display: inline-block;
+    width: 60px;
+    height:60px;
+    margin:4px auto;
+    transition: all .4s;
+}
+
+.hright li:first-child:hover{
+    transform-origin:top right;
+    transform: scale(2);
+}
+
+
+.hright li a{
+    height: 42px;
+    width: 42px;
+    line-height: 30px;
+}
+
+.hright li .avatar img{
+    width: 80%;
+    height:80%;
+    padding-right:12px;
+}
+
+.hright li img{
+    float: left;
+    width: 23px;
+    height: 23px;
+    margin-left:4px;
+}
+
+.hright li span{
+    float:left;
+    width: 40px;
+    height: 16px;
+    font-size: 15px;
+    font-weight: 900;
+    color: #e0e0e0;
+    transition: all .4s;
+
+}
+
+.hright li span:hover{
+    color:#eaff00;
+}
+
+/* 网站底部样式 */
+.footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #f6f7f8;
+    margin-top: 200px;
+    border-top: 5px solid #efefef;
+    box-sizing: border-box;
+    z-index: 0;
+}
+
+.top_left{
+    position: absolute;
+    top: 30px;
+    left: 190px;
+}
+
+.top_center{
+    position: absolute;
+    top: 30px;
+    left: 710px;
+}
+
+
+.top_left a,.top_center a{
+    text-decoration: none;
+    color: #2c2d3e;
+    line-height: 30px;
+    font-size: 14px;
+    padding:6px;
+}
+
+.top_left .title,.top_center .title{
+    padding: 6px;
+    color: #9499a0;
+}
+
+.top_right{
+    position: absolute;
+    top: 20px;
+    right: 170px;
+}
+
+.top_right li{
+    display: inline-block;
+    padding: 15px;
+    text-align: center;
+}
+
+.top_right li a{
+    text-decoration: none;
+    color: #2c2d3e;
+}
+
+.line{
+    position: absolute;
+    top: 160px;
+    left: 10%;
+    width: 80%;
+    height: 1px;
+    background-color: #e3e5e7;
+}
+
+.foot_bottom .logo{
+	position: absolute;
+    bottom: 100px;
+    left: 330px;
+    width: 100px;
+    height: 100px;
+    
+}
+
+
+.foot_bottom .logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.foot_bottom .copyright{
+	position: absolute;
+    bottom: 120px;
+    left: 680px;
+	font-style: 12px;
+	color: #2c2d3e;
+	line-height: 30px;
+}
+
+.foot_bottom .links{
+	position: absolute;
+    bottom: 120px;
+    right: 220px;
+	font-style: 12px;
+	line-height: 20px;
+	color: #2c2d3e;
+}
